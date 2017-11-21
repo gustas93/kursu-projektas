@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+.clear-float {
+    clear: both;
+    content: '';
+}
+
+body{
+  background-image:url(../pictures/fog_main.jpg);
+}
+header li{
+  display: inline-block;
+}

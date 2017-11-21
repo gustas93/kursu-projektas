@@ -1,0 +1,54 @@
+
+/*____________Spalvos*/
+h1.txt-blue {
+    color: blue;
+}
+
+.bg-white{
+        background-color: #999;
+}
+body{
+    background-color: #F8F9FA;
+}
+.lblue{
+    background-color: #DFE6EE;
+}
+/*____________baigiasi spalvos cia__*/
+
+
+/*______________pozicija erdveje__________*/
+.heigth-100{
+    height: 100px;
+}
+
+.heigth-200{
+    height: 200px;
+}
+
+.heigth-300{
+    height: 300px;
+}
+
+
+.heigth-500{
+    height: 500px;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.mbm-80{
+    margin-bottom: -5rem;
+    }
+.mbm-20{
+    margin-bottom: -1.5rem;
+    padding: 0;
+}
+
+.zindex1{
+    z-index: 1;
+}
+
+
+/*---------------pozicija erdveje baigiasi cia------------*/
