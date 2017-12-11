@@ -1,7 +1,6 @@
-<div class="container-fluid">
-        <div class="row mtm-10">
+<div class="container-fluid mt-5">
+        <div class="row">
 <!-- karusele cia-->
-
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-pause="">
 
                       <ol class="carousel-indicators">
@@ -12,17 +11,17 @@
                       </ol>
 
                       <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img class="d-block w-100" src="./pictures/bible.jpg" alt="First slide">
+                        <div class="carousel-item active ">
+                          <img class="d-block w-100 " src="./pictures/bible.jpg" alt="First slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="./pictures/grass.jpg" alt="Second slide">
+                        <div class="carousel-item ">
+                          <img class="d-block w-100 " src="./pictures/grass.jpg" alt="Second slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="./pictures/father.jpg" alt="Third slide">
+                        <div class="carousel-item ">
+                          <img class="d-block w-100 " src="./pictures/father.jpg" alt="Third slide">
                         </div>
-                        <div class="carousel-item">
-                          <img class="d-block w-100" src="./pictures/people.jpg" alt="Third slide">
+                        <div class="carousel-item ">
+                          <img class="d-block w-100 " src="./pictures/people.jpg" alt="Third slide">
                         </div>
                       </div>
 

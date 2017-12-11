@@ -11,6 +11,7 @@ $clientEmail = trim($clientEmail);    //pasalina tarpus pries ir uz, kad nehacki
 $clientText = trim($clientText);
 
 require './libs/PHPMailer-master/PHPMailerAutoload.php';
+require './libs/PHPMailer-master/extras/htmlfilter.php';
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
@@ -19,14 +20,14 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';                      // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'vynuogynas.mailer@gmail.com';             // SMTP username
-    $mail->Password = '123email!';                        // SMTP password
+    $mail->Username = '';             // SMTP username
+    $mail->Password = '';                        // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom($clientEmail, $clientName);
-    $mail->addAddress('s1sdasd2@gmail.com', 'Kauno Vynuogynas');     // Add a recipient
+    $mail->addAddress('vynuogynas@gmail.com', 'Kauno Vynuogynas');     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
     $mail->addReplyTo($clientEmail, $clientName);
     // $mail->addCC('cc@mail.com');
@@ -47,11 +48,11 @@ try {
     <?php require_once('./head.php'); ?>
 
         <title>Kauno Vynuogynas</title>
-        <meta http-equiv="refresh" content="0; ./email.php">
+        <meta http-equiv="refresh" content="1; ./email.php">
     </head>
 
     <?php
 } catch (Exception $e) {
-    echo '<br />Nepavyko išsiųsti žinutės.<br />';
+    // echo '<br />Nepavyko išsiųsti žinutės.<br />';
     echo 'Atsiprašome, nepavyko išsiųsti Jūsų žinutės, susisiekite telefonu. ' . $mail->ErrorInfo;
 }

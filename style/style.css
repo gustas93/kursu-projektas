@@ -1,7 +1,3 @@
-body, html {
-    height: 100%;
-}
-
 /*____________Spalvos*/
 .miestai{
     background-image: url("../pictures/sky.jpg");
@@ -9,7 +5,10 @@ body, html {
 }
 .mail-bg{
     background-image: url("../pictures/mail.jpg");
-
+    /*background-color: rgba(47, 89, 69, 1)*/
+}
+.admin{
+    background-image: url("../pictures/mail.jpg");
 }
 
 .bg-vilnius{
@@ -17,49 +16,47 @@ body, html {
   background-color: rgba(219, 127, 19, 1);
 }
 .bg-panevezys{
-  background-color: rgba(128, 0, 127, 0.5);
+  background-color: rgba(128, 0, 127, 1);
 }
 .bg-kaunas{
-  background-color: rgba(186, 57, 50, 0.5);
+  background-color: rgba(131, 25, 25, 1);
 }
 .bg-klaipeda{
-  background-color: rgba(9, 18, 135, 0.5);
+  background-color: rgba(9, 18, 135, 1);
+}
+.bg-pilka{
+  background-color: rgba(85, 86, 92, 1);
 }
 /*____________baigiasi spalvos cia__*/
 
 
 /*______________pozicija erdveje__________*/
-.mtm-10{
-  margin-top: -10rem;
+
+.navigacija{
+    z-index: 99;
+    margin-top: 0vh;
+    position: fixed;
+}
+.miestas{
+    position: relative;
 }
 
-div.col.mt-4{
-    z-index: 1;
+.nuotrauka{
+    width: 100%;
+    border: solid white 2px
 }
 
 /*---------------pozicija erdveje baigiasi cia------------*/
 
-.nuotrauka{
-  position: relative;
-  width: 400px;
-
-  border: solid #000 2px;
-  border-radius: 1%;
-}
-.miestas{
-  position: relative;
-  margin: 1vh;
-
+.miestai-title{
+    font-size: 60px;
+    font-weight: 500;
+    position: absolute;
+    top: 35%;
+    left: 3vh;
+    color: #fff;
 }
 
-.aprasas{
-  text-align: center;
-  position: absolute;
-  width: 400px;
-  top: 40%;
-  visibility: hidden;
-  color: #000;
-}
 .daugiau{
     text-align: center;
     padding-top: 15%;
@@ -67,15 +64,13 @@ div.col.mt-4{
 }
 .mygtukas{
     margin-left: 45%;
+    margin-bottom: 15%;
 }
 .matomas{
   visibility: visible;
   opacity: 1;
+}
 
-}
-.miestai-title{
-  text-align: center;
-}
 .vizija{
     font-size: 1.2em;
     max-width: 760px;
@@ -83,21 +78,51 @@ div.col.mt-4{
     padding: 5px 8px;
 }
 
-.trumpas-apr{
-    padding: 5px 8px;
-    font-size: 1.2em;
-    max-width: 760px;
-    margin-left: 7%;
-    margin-bottom: 0;
-}
-.pavadinimas{
-    padding: 5px 0px;
-    max-width: 760px;
-    margin-left: 7%;
+.tarpas{
+    height: 300px;
 }
 
+.msg{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10%;
+    color: #fff;
+}
+.msg-scs{
+    background-color: rgb(122, 232, 150);
+}
+.msg-dlt{
+    background-color: rgb(233, 100, 100);
+}
+
+
+/*.main-pavadinimas{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 50px;
+    font-weight: 500;
+    border-bottom: solid 2px rgb(18, 26, 50);
+}
+.vineyard-title{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.info{
+    color: #fff;
+    text-align: center;
+}
+.info-weight{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
 .parallax-viz {
-    background-image: url("../pictures/woof.jpg");
+    background-image: url("../pictures/vision.png");
     height: 80%;
     background-attachment: fixed;
     background-position: center;
@@ -115,14 +140,20 @@ div.col.mt-4{
 }
 
 .parallax-mes {
-    background-image: url("../pictures/bendruomene2.jpg");
+    background-image: url("../pictures/crowd2.jpg");
     height: 80%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-#map{
-    width: 100%;
-    height: 100%;
-}
+
+.parallax-istorija {
+    background-image: url("../pictures/bible-stud.jpg");
+    height: 80%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}*/

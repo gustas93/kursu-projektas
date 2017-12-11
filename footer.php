@@ -1,16 +1,16 @@
-<div class="container-fliud bg-light">
-    <div class="justify-content-between d-flex  " >
+<div class="container-fluid  bg-light">
+    <div class="justify-content-between d-flex mt-0" >
         <div class="m-3">
-            <a href="http://www.fb.com"><img src="./pictures/svgicons/fb.svg" class="ml-5" onerror="this.onerror=null; this.src='image.png'" width="30px"></a>
-            <a href="http://www.youtube.com"><img src="./pictures/svgicons/ytb.svg" class="" onerror="this.onerror=null; this.src='image.png'" width="30px"></a>
-            <a href="http://www.instagram.com"><img src="./pictures/svgicons/inst.svg" class="" onerror="this.onerror=null; this.src='image.png'" width="30px"></a>
+            <a href="https://www.facebook.com/panevezio.vynuogynas"><img src="./pictures/svgicons/fb.svg" class="ml-1" onerror="this.onerror=null; this.src='image.png'" width="30px"></a>
+            <a href="https://www.youtube.com/channel/UC0vfdTrMJNCyO8lglcA06CQ/videos"><img src="./pictures/svgicons/ytb.svg" class="ml-1" onerror="this.onerror=null; this.src='image.png'" width="30px"></a>
+            <a href="https://www.instagram.com/vineyardworship/"><img src="./pictures/svgicons/inst.svg" class="ml-1" onerror="this.onerror=null; this.src='image.png'" width="30px"></a>
         </div>
         <div class="m-3">
             <a href="">KONTAKTAI</a>
         </div>
 
         <div class="m-3">&copy; 2017 Vynuogynas LT</div>
-        <div class="float-none"></div>
+
     </div>
 </div>
 
@@ -22,7 +22,8 @@
 <script type="text/javascript" src="./libs/bootstrap/js/popper.js"> </script>
 <script type="text/javascript" src="./libs/bootstrap/js/bootstrap.min.js"> </script>
 
-<script type="text/javascript" src="./miestai.js"> </script>
+<script type="text/javascript" src="./libs/jquery-3.2.1.js"> </script>
+<script type="text/javascript" src="./libs/miestai.js"> </script>
 
 </body>
 </html>

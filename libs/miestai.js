@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $('div.miestas').hover(function(){
-    $('img', this).animate({opacity:0.5}, 'fast');
+    $('img', this).animate({opacity:0.2}, 'fast');
     $('h2', this).addClass('matomas', 4000);
 
   }, function(){
@@ -8,3 +8,17 @@ $(document).ready(function() {
     $('h2', this).removeClass('matomas');
   });
 });
+
+// $(document).ready(function() {
+//     $('#submit').click(function(){
+//         $.ajax({
+//             url: './create-article.php',
+//             type: 'POST',
+//             data: {param1: 'autvardas'},
+//
+//         success : function() {
+//             $('#msg').addClass('.msg-success');}
+//
+// });
+// });
+// });

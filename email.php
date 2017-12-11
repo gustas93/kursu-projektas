@@ -1,29 +1,19 @@
 <?php require_once('./head.php'); ?>
 
-    <title>Susisiek su mumis!</title>
-</head>
-<body class="mail-bg">
-    <div class="container"> <!-- container div____________ -->
-    <!-- Navigacija cia_____________________ -->
-            <div class="row">
-                <div class="col mt-4">
+    <body class="mail-bg">
 
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                      <a class="navbar-brand" href="miestas.php">KAUNO VYNUOGYNAS</a>
+<?php require_once('./navigation.php'); ?>
 
-<?php require_once('./navigacija.php'); ?>
-
-<br /><br />
 
 <div class="container">
-    <div class="row justify-content-center">
+    <div class="row mt-3 justify-content-center">
         <div class="col-9 bg-light">
-            <span><br /></span>
-            <h1>PARAŠYKITE MUMS</h1><br />
+
+            <h1 >PARAŠYKITE MUMS</h1><br />
             <h3>Įveskite savo <b>tikrą</b> el. pašto adresą, kad galėtume su Jumis susisiekti.<h6>arba susisiekite <a href="kontaktai.php">telefonu.</a></h6></h3>
             <br />
 
-            <form action="./backend-email.php" method="get">
+            <form action="./backend-email.php" onsubmit="return validateForm()" method="get">
               <div class="form-group">
                 <label for="email">El. Pašto adresas</label>
                 <input type="email" name="email" class="form-control" placeholder="Įveskite el. pašto adresą" value="" required>
